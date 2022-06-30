@@ -1,0 +1,33 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: sans-serif;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttons{
+    padding-top: 20px;
+}
+
+.button{
+    margin: 0 12px;
+    padding: 16px;
+    border: none;
+    border-radius: 20px;
+    background-color: gray;
+    font-size: 28px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+input{
+    padding: 12px;
+    border-radius: 20px;
+    border: 1px solid #3a3a3a;
+}
