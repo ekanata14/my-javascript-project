@@ -1,0 +1,27 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    height: 100%;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+p, button{
+    font-size: 28px;
+}
+
+button{
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: coral;
+    cursor: pointer;
+}
+
