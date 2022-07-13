@@ -1,0 +1,51 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal{
+    background-color: aquamarine;
+    height: 300px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+button{
+    padding: 16px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.modal-content{
+    position: absolute;
+}
+
+#modal-content{
+    display: none;
+}
+
+.close{
+    background-color: red;
+    color: #fff;
+    position: absolute;
+    top:20px;
+    right:20px;
+    cursor: pointer;
+}
+
